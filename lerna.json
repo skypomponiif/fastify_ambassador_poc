@@ -1,7 +1,6 @@
 {
   "packages": [
-    "packages/first-api/*",
-    "packages/second-api/*"
+    "packages/*"
   ],
   "version": "0.0.0"
 }

@@ -7,11 +7,7 @@
     "npm": "6.14.13"
   },
   "scripts": {
-    "watch": "concurrently \"npm:watch:first-api\" \"npm:watch:first-api:ambassador\" \"npm:watch:second-api\" \"npm:watch:second-api:ambassador\"",
-    "watch:first-api": "cd packages/first-api/app && npm run watch",
-    "watch:first-api:ambassador": "cd packages/first-api/ambassador && npm run watch",
-    "watch:second-api": "cd packages/second-api/app && npm run watch",
-    "watch:second-api:ambassador": "cd packages/second-api/ambassador && npm run watch",
+    "watch:video-manifest": "cd packages/video-manifest && npm run watch",
     "compile": "npx lerna run compile",
     "setup": "npx lerna clean --yes && npx lerna bootstrap",
     "lint": "eslint . --ext .ts",
@@ -62,7 +58,6 @@
     "concurrently": "^6.4.0",
     "dotenv": "^10.0.0",
     "fastify": "3.24.0",
-    "fastify-http-proxy": "^6.2.1",
     "lerna": "4.0.0",
     "nodemon": "2.0.15"
   }

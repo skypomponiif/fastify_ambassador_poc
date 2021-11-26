@@ -6,15 +6,13 @@ module.exports = {
 		project: ['./tsconfig.eslint.json'],
 	},
 	plugins: [
-		'@typescript-eslint',
-		'@fintechstudios/eslint-plugin-chai-as-promised'
+		'@typescript-eslint'
 	],
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
-		'plugin:@fintechstudios/chai-as-promised/recommended',
 		'plugin:prettier/recommended'
 	],
 	rules: {
