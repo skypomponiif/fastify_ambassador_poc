@@ -1,0 +1,2 @@
+export const hlsUrl =
+    '* https://videodemand-vh.akamaihd.net/i/secure/encoded/2021/09/23/1632408570355_blob-verstappen-hamilton-per-pit-walk_,web_low,web_med,web_high,web_hd,.mp4.csmil/master.m3u8?hdnea=st=1632411143~exp=1632411443~acl=/i/secure/encoded/2021/09/23/1632408570355_blob-verstappen-hamilton-per-pit-walk_*~hmac=cdf3e349140e86186ffb9a1c6632a89bc16f73fa7f954b5438f8a2155c3abfc6 \n* https://playback.brightcovecdn.com/playback/v1/accounts/\\<accountId>/videos/ref:\\<refId>/master.m3u8?bcov_auth=\\<playerJWT>&fileFormat=.m3u8\n';
