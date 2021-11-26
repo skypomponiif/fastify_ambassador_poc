@@ -1,0 +1,14 @@
+{
+  "name": "second-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc -b",
+    "watch": "npx nodemon src/index",
+    "watch:ambassador": "npx nodemon src/ambassador"
+  },
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "packages/first-api/*",
+    "packages/second-api/*"
+  ],
+  "version": "0.0.0"
+}

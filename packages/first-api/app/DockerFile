@@ -1,0 +1,21 @@
+FROM node:14 as base
+
+WORKDIR /home/node/app
+
+# Dependencies
+
+COPY package*.json lerna.json ./
+COPY package-lock.json /home/app/
+COPY lerna.json /home/app/
+
+RUN npm i
+
+COPY . .
+
+FROM base as production
+
+ENV NODE_PATH=./build
+
+EXPOSE 3306
+
+RUN npm run compile
